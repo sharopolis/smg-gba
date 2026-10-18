@@ -67,7 +67,7 @@ So actually like windows but easier: do steps 2 to 4 of the Windows section in a
 
 The first build takes a few minutes. It downloads the disc tool `nodtool` and unpacks your disc, checks that every file it needs matches the original game. Also it constructs assets.
 
-## Come her for help
+## Come here for help
 
 - **`WSL2 is unable to start since virtualization is not enabled on this machine`** (Windows): turn on virtualization (Intel VT-x / AMD-V / SVM) in your PC's BIOS/UEFI settings, then run `wsl --install -d Ubuntu` again.
 - **`curl: (22) The requested URL returned error: 403`** in the devkitPro step: the devkitPro server blocks plain `curl`. Copy the command exactly as written above, including `-A "dkp apt"`.

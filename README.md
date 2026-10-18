@@ -17,7 +17,7 @@ You need:
 
 Click **Install** on the opened window
 
-3. Install the devkitPro:
+3. Install devkitPro:
    - Download `devkitpro-pacman-installer.pkg` from https://github.com/devkitPro/pacman/releases/latest and open it. If macOS blocks it, go to **System Settings > Privacy & Security** and click **Open Anyway**.
    - Then run this command with sudo access:
 

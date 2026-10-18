@@ -1,0 +1,10 @@
+static void wipe_update(void);
+static void wipe_after_flip(void);
+static void wipe_vblank(void);
+static void star_get_start(int star_id);
+static void star_get_tick(const KeyState* keys);
+static void star_get_wipe_tick(void);
+static bool star_get_camera(Camera* camera);
+static void star_get_add_figures(void);
+static void star_get_draw_hud(void);
+static void star_get_set_blend(void);

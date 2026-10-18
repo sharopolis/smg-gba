@@ -1,0 +1,12 @@
+static bool scenario_intro_active(void);
+static bool scenario_intro_playing(void);
+static bool scenario_intro_welcoming(void);
+static void scenario_intro_start(int stage, int mission);
+static void scenario_intro_end(void);
+static void scenario_intro_opening_done(void);
+static void scenario_starter_tick(int step, int duration);
+static void scenario_starter_released(void);
+static bool scenario_intro_tick(const KeyState* keys);
+static void scenario_intro_camera(void);
+static void scenario_intro_draw_frame(uint8_t* framebuffer);
+static bool scenario_intro_title_visible(int stage_tick);

@@ -1,0 +1,10 @@
+static bool purple_coin_star_stage(void);
+static bool purple_coin_star_actor(const Actor* a);
+static bool purple_coin_star_busy(const Actor* a);
+static void purple_coin_star_init(Actor* a, const StageObject* o);
+__attribute__((noinline)) static bool purple_coin_star_request(void);
+static void purple_coin_star_coin_taken(void);
+static bool purple_coin_star_paused(void);
+__attribute__((noinline)) static bool purple_coin_star_tick(const KeyState* keys);
+static void purple_coin_star_wait_tick(Actor* a);
+static fx purple_coin_star_yaw(const Actor* a);

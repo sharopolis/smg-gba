@@ -1,0 +1,3 @@
+f14d1273b28e91c2f6441375bd3d4769224351ddc41269562608ec38f91b7746  ObjectData/Mario.arc
+1e130baeadc0dff9000fb9cd9738310926def1777143d437d804e50eb2ec45b8  ObjectData/MarioAnime.arc
+d2bb676eef7990ad676f490ba37b15c026f74141c97690fe750b80f15dafa04f  ObjectData/BeeMarioWing.arc

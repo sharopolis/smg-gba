@@ -1,0 +1,11 @@
+static void fireball_star_hit(Actor* a);
+static Actor* fireball_throw(Actor* host, v3 from, int32_t speed, fx angle);
+static void fireball_think(Actor* a);
+static void firebubble_think(Actor* a);
+static void fireball_figure(const Actor* a, Figure* f);
+static void fireball_pose(const Actor* a, Figure* f);
+static bool fireball_hidden(const Actor* a);
+static fx fireball_pointer_radius(const Actor* a);
+static bool fireball_pointer_preferred(const Actor* a);
+static bool fireball_pointer_swipe(const Actor* a);
+static void fireball_actor_think(Actor* a);

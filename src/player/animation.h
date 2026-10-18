@@ -1,0 +1,10 @@
+static const AnimClip* figure_clips(const FigureHeader* f);
+static int anim_length(int clip);
+static int anim_length_of(const FigureHeader* f, int clip);
+static int anim_interpolation(int clip);
+static const void* figure_clip_pose(const FigureHeader* f, int clip, fx frame);
+static void mario_anim_tick(void);
+__attribute__((noinline)) static void mario_set_hidden(bool hidden);
+__attribute__((noinline)) static void mario_update_pose(void);
+static fx mario_walk_anim_rate(void);
+static void mario_choose_ground_anim(void);

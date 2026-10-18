@@ -1,0 +1,1 @@
+20c6cb9115d337524804c8141d7133d0afd15e9d87fe02c00dab865b46edac9a  ParticleData/Effect.arc

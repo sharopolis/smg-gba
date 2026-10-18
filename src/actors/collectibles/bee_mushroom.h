@@ -1,0 +1,3 @@
+enum { BEE_MUSHROOM_APPEAR_PENDING = 208, BEE_MUSHROOM_APPEAR_SHOT1, BEE_MUSHROOM_APPEAR_SHOT2 };
+
+static void bee_mushroom_think(Actor* a);

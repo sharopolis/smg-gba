@@ -1,0 +1,10 @@
+static void dino_reset(void);
+static void dinopackun_tail_ball_think(Actor* b);
+static void dinopackun_egg_think(Actor* e);
+static void dino_part_figure(const Actor* a, Figure* f);
+static int dino_damage_side(const Actor* a);
+static bool dino_area_camera(BossCamera* bc);
+static void dinopackun_think(Actor* a);
+static bool dino_demo_cast(const Actor* demo, const Actor* a);
+static void dino_tail_figure(const Actor* a, Figure* f);
+static fx dino_draw_extent(const Actor* a);
